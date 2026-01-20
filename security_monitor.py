@@ -56,7 +56,7 @@ def generate_report():
                 f.write(line)
                 
                 if p == 21 or p == 23:
-                    f.write("  -> alert: insecure protocol detected (telnet/ftp)\n")
+                    f.write("insecure protocol detected telnet and ftp\n")
         else:
             f.write("no critical open ports found\n")
             
